@@ -18,10 +18,10 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  min = 10000000000000000
-  array.each do |i|
-    if i < min
-      i = min
+  min = 0
+  while counter < array.size
+    if array[counter] > max
+      max = array[counter]
     end
   end
   return min
