@@ -4,6 +4,7 @@ def find_element_index(array, value_to_find)
     if array[counter] == value_to_find
       return counter
     end
+    counter++
   end
 end
 
@@ -13,6 +14,7 @@ def find_max_value(array)
     if array[counter] > max
       max = array[counter]
     end
+    counter++
   end
   return max
 end
@@ -23,6 +25,7 @@ def find_min_value(array)
     if array[counter] < min
       min = array[counter]
     end
+    counter++
   end
   return min
 end
