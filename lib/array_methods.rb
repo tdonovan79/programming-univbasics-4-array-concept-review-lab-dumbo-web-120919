@@ -23,7 +23,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  min = 0
+  min = 1000000000000000000000000
   counter = 0
   while counter < array.size do
     if array[counter] < min
