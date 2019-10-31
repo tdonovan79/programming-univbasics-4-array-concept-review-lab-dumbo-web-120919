@@ -20,8 +20,8 @@ end
 def find_min_value(array)
   min = 0
   while counter < array.size
-    if array[counter] > max
-      max = array[counter]
+    if array[counter] < min
+      min = array[counter]
     end
   end
   return min
